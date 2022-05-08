@@ -6,3 +6,9 @@ spec:
    labels:
      fruit: apple
      color: red
+   templates:
+     name: nodejs:0.4
+     labels:
+       fruit: apple
+       color: red
+     
