@@ -6,3 +6,16 @@ spec:
    labels:
      fruit: apple
      color: red
+   templates:
+     name: nodejs:0.4
+     labels:
+       fruit: apple
+       color: red
+   volumes:
+       emptyDir: {}
+       claimName: myvol
+    containers:
+        name: nodejs
+        image: hub.docker.io/nodejs:0.4
+        ImagePullPolicy: IfNotPresent
+     
