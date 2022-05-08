@@ -1,0 +1,8 @@
+apiVersion: v1/beta
+kind: Deployment
+metadata: 
+   name: Devops
+spec:
+   labels:
+     fruit: apple
+     color: red
